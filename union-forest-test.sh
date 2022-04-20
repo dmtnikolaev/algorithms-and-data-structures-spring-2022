@@ -1,0 +1,30 @@
+./main < 1.in > 1.res
+./main < 2.in > 2.res
+./main < 2to2.in > 2to2.res
+./main < 2to3.in > 2to3.res
+./main < 2to4.in > 2to4.res
+./main < 2to7.in > 2to7.res
+./main < 2to10.in > 2to10.res
+./main < 2to15.in > 2to15.res
+./main < 2to17.in > 2to17.res
+./main < 2to18.in > 2to18.res
+./main < 2to19.in > 2to19.res
+./main < 2to20.in > 2to20.res
+./main < 3.in > 3.res
+./main < 4.in > 4.res
+
+
+diff -w --strip-trailing-cr 1.out 1.res
+diff -w --strip-trailing-cr 2.out 2.res
+diff -w --strip-trailing-cr 2to2.out 2to2.res
+diff -w --strip-trailing-cr 2to3.out 2to3.res
+diff -w --strip-trailing-cr 2to4.out 2to4.res
+diff -w --strip-trailing-cr 2to7.out 2to7.res
+diff -w --strip-trailing-cr 2to10.out 2to10.res
+diff -w --strip-trailing-cr 2to15.out 2to15.res
+diff -w --strip-trailing-cr 2to17.out 2to17.res
+diff -w --strip-trailing-cr 2to18.out 2to18.res
+diff -w --strip-trailing-cr 2to19.out 2to19.res
+diff -w --strip-trailing-cr 2to20.out 2to20.res
+diff -w --strip-trailing-cr 3.out 3.res
+diff -w --strip-trailing-cr 4.out 4.res
